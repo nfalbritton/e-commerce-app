@@ -20,12 +20,18 @@ class Product {
 
   toHTML() {
     let productHtml = `<div class='product'>
-    <h1>Product Name: ${this.name}</h1>
-    <h5>${this.quantity} is in stock</h5>
+    <h2>Product Name:</h2>
+    <h3>${this.name}</h3>
+    <br>
     <img src='${this.image}' alt='${this.name}' />
-
-    <h3>Description</h3>
+    <br>
+    <div class='desc'>
+    <h4>Description:</h4>
+    <p>${this.quantity} is in stock</p>
     <p> ${this.description} </p>
+    </div>
+    <br>
+    <br>
     </div>`;
 
     return productHtml;

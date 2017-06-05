@@ -1,19 +1,60 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto+Slab|Roboto|Inconsolata);
 
-h1, h2, h3, h4, h5, h6 {
+h1 {
+  font-size: 50px;
+  text-align: center;
+  color: maroon;
+}
+
+h2 {
+  font-family: "Roboto Slab", Georgia, Cambria, "Times New Roman", Times, serif;
+  text-decoration: underline;
+  text-align: left;
+  font-size: 30px;
+  color: deeppink;
+
+}
+
+h3 {
+  font-family: "Roboto Slab", Georgia, Cambria, "Times New Roman", Times, serif;
+  color: hotpink;
+  font-size: 30px;
+}
+
+h4 {
+  font-family: "Roboto Slab", Georgia, Cambria, "Times New Roman", Times, serif;
+  color: dodgerblue;
+  font-size: 28px;
+}
+
+p {
   font-family: "Roboto Slab", Georgia, Cambria, "Times New Roman", Times, serif;
 }
 
 body {
   font-family:  Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #646464;
-  background-color: #F6F6F7;
+  background-color: linen;
   margin: 0 10%;
+
 }
 
 div {
   border-radius: 5px;
   font-size: 24px;
+}
+
+
+div.product img {
+  border: 1px solid #777;
+}
+
+div.product:hover {
+  border: 1px solid #ccc;
+}
+
+div.desc {
+  padding: 15px;
 }
 
 .code {
